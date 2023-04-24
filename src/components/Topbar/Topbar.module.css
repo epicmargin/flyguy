@@ -32,7 +32,9 @@
 
 .home {
   display: flex;
-  padding: calc((var(--topbarHeight) - var(--Topbar_logoHeight)) / 2) 24px;
+  height: 80px;
+  /* Calculate vertical padding. Something like: (60px - 25px)/2 */
+  padding: calc((80px - var(--Topbar_logoHeight)) / 2) 24px;
 }
 
 .logoutButton {

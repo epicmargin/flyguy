@@ -98,12 +98,12 @@
 
   /* ================ Topbar related ================ */
 
-  --topbarHeight: 60px;
-  --topbarHeightDesktop: 72px;
+  --topbarHeight: 100px;
+  --topbarHeightDesktop: 110px;
 
   --TopbarMobileMenu_topMargin: 96px;
 
-  --Topbar_logoHeight: 25px;
+  --Topbar_logoHeight: 95px;
   --CheckoutPage_logoHeight: 25px;
   --CheckoutPage_logoHeightDesktop: 27px;
 
