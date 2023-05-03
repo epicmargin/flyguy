@@ -17,9 +17,11 @@
   position: relative;
 
   @media (--viewportMedium) {
-    padding: 64px 0;
+    padding: 180px 0;
   }
+
 }
+
 
 .backgroundImageWrapper {
   position: absolute;

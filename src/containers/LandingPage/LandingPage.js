@@ -24,6 +24,12 @@ export const LandingPageComponent = props => {
   );
 };
 
+
+
+
+
+
+
 LandingPageComponent.propTypes = {
   pageAssetsData: object,
   inProgress: bool,
