@@ -264,7 +264,7 @@
 .terms {
   /* Font */
   composes: marketplaceTinyFontStyles from global;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   transition: var(--transitionStyleButton);
 
   margin-top: 0;
@@ -308,7 +308,7 @@
 .organizationCopyrightMobile {
   /* Font */
   composes: marketplaceTinyFontStyles from global;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   transition: var(--transitionStyleButton);
 
   /* Tell parent component how much space this one prefers */

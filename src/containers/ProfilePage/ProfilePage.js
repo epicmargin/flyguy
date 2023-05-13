@@ -13,7 +13,6 @@ import {
   Page,
   LayoutSideNavigation,
   LayoutWrapperMain,
-  LayoutWrapperSideNav,
   LayoutWrapperTopbar,
   LayoutWrapperFooter,
   Footer,
