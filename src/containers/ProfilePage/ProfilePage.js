@@ -101,10 +101,7 @@ export class ProfilePageComponent extends Component {
 
     const asideContent = (
       <div className={css.asideContent}>
-       
-        
       <AvatarLarge className={css.avatar} user={user} disableProfileLink />
-      
       {editLinkMobile}
       {editLinkDesktop}
     </div>
@@ -121,7 +118,6 @@ export class ProfilePageComponent extends Component {
     );
 
     const reviewsOfProvider = reviews.filter(r => r.attributes.type === REVIEW_TYPE_OF_PROVIDER);
-
     const reviewsOfCustomer = reviews.filter(r => r.attributes.type === REVIEW_TYPE_OF_CUSTOMER);
 
     const mobileReviews = (
@@ -175,7 +171,6 @@ export class ProfilePageComponent extends Component {
     const desktopReviews = (
       <div className={css.desktopReviews}>
         <ButtonTabNavHorizontal className={css.desktopReviewsTabNav} tabs={desktopReviewTabs} />
-
         {queryReviewsError ? reviewsError : null}
 
         {this.state.showReviewsType === REVIEW_TYPE_OF_PROVIDER ? (
@@ -187,11 +182,8 @@ export class ProfilePageComponent extends Component {
     );
 
     const mainContent = (
-      <div>
-        
-        
+      <div>        
         <div className={css.profileBox}>
-       
         <div className={css.identityBox}>
         <p className={css.artistName}><FormattedMessage id="ProfilePage.mobileHeading" values={{ name: displayName }} /></p>
         <p  className={css.location}>{hometowncity}, {hometownstate}</p>
@@ -211,7 +203,6 @@ export class ProfilePageComponent extends Component {
         {hasWebsite? <a className={css.linkBox} href={website} target="_blank">Web</a> : null}
         <p/>
         </div>
-
 
 
         {hasListings ? (

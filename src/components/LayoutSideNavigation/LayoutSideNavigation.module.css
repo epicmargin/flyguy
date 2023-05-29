@@ -40,7 +40,8 @@
      * and left padding together with border should be 60px.
      */
     padding: 112px 36px 82px 59px;
-    background-color: var(--matterColorLight);
+    background-color: var(--matterColorBright);
+    /*background: linear-gradient(var(--matterColorBright), 94%,#ffffff);*/
     border-left-width: 1px;
     border-left-style: solid;
     border-left-color: var(--matterColorNegative);

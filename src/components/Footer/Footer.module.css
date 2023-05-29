@@ -4,11 +4,12 @@
   position: relative;
   border-top-style: solid;
   border-top-width: 1px;
-  border-top-color: var(--matterColorNegative);
+  border-top-color: var(--matterColorAnti);
 
   width: 100%;
   padding: 24px 24px 42px 24px;
-  background-color: var(--matterColorBright);
+  background-color: var(--matterColorAnti);
+ 
 
   @media (--viewportMedium) {
     padding: 0 24px 33px 24px;
@@ -32,7 +33,7 @@
 
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: var(--matterColorNegative);
+    border-top-color: var(--matterColorAnti);
   }
 }
 

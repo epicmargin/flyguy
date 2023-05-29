@@ -10,7 +10,6 @@
     margin-top: 3px;
   }
 }
-
 .error {
   color: var(--failColor);
 }
@@ -34,12 +33,58 @@
 }
 
 .avatar {
-  margin: 30px 26px 29px 0;
-  flex-shrink: 0;
+  margin: 0 auto;
+  overflow: hidden;
+    margin-top: -5px;
+    border-radius: 50%;
+  border: 3px solid #fff;
+  position: relative;
+  width: 100px;
+  height: 100px;
+ 
 
   @media (--viewportLarge) {
     margin: 0 auto;
+    overflow: hidden;
+      margin-top: -65px;
+      border-radius: 50%;
+    border: 3px solid #fff;
+    position: relative;
+    width: 130px;
+    height: 130px;
+
   }
+}
+
+.avatar img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileBanner
+{
+  height: 160px;
+
+  @media (--viewportLarge) {
+    width: 100%;
+    height: 300px;
+  }
+
+}
+
+.profileBanner img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  @media (--viewportLarge) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 }
 
 .mobileHeading {
@@ -139,6 +184,9 @@
         margin: 4px 2px;
         cursor: pointer;
 }
+
+
+
 
 .bio {
   /* Preserve newlines, but collapse other whitespace */

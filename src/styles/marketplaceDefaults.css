@@ -474,7 +474,7 @@ textarea,
   border-radius: 0;
 
   &::placeholder {
-    color: var(--matterColorAnti);
+    color: var(--marketplaceColor);
   }
 
   /* Effects */
@@ -777,7 +777,7 @@ textarea {
 /* Button colors: primary */
 .buttonColorsPrimary {
   background-color: var(--successColor);
-  color: var(--matterColorLight);
+  color: var(--marketplaceColor);
 }
 .buttonColorsPrimary:hover,
 .buttonColorsPrimary:focus {

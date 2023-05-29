@@ -44,7 +44,7 @@
 
 .paymentHeading {
   margin: 0 0 14px 0;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
 
   padding-top: 8px;
   padding-bottom: 0px;
@@ -56,7 +56,7 @@
 
 .billingHeading {
   margin: 0 0 14px 0;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
 
   padding-top: 3px;
   padding-bottom: 2px;
@@ -119,7 +119,7 @@
 .infoText {
   composes: h5 from global;
 
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   padding: 0;
   margin: 14px 0 0 0;
 }
