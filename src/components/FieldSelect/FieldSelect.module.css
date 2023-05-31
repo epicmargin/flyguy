@@ -2,7 +2,7 @@
 }
 
 .select {
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   border-bottom-color: var(--attentionColor);
   padding-right: 20px;
 

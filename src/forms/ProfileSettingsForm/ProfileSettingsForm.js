@@ -9,7 +9,7 @@ import { ensureCurrentUser } from '../../util/data';
 import { propTypes } from '../../util/types';
 import * as validators from '../../util/validators';
 import { isUploadImageOverLimitError } from '../../util/errors';
-import { Form, Avatar, Button, ImageFromFile, IconSpinner, FieldTextInput } from '../../components';
+import { Form, Avatar, Button, ImageFromFile, IconSpinner, FieldTextInput, FieldSelect } from '../../components';
 
 import css from './ProfileSettingsForm.module.css';
 
@@ -364,13 +364,49 @@ class ProfileSettingsFormComponent extends Component {
                 <h3 className={css.sectionTitle}>
                   <FormattedMessage id="ProfileSettingsForm.bioHeading" />
                 </h3>
-                <FieldTextInput
-                  type="textarea"
+               
+                
+                <FieldSelect
                   id="profiletitle"
                   name="profiletitle"
                   label={profileTitleLabel}
                   placeholder={profileTitlePlaceholder}
-                />
+                >
+                  <option value="Architecture">
+                  Architecture
+                  </option>
+                  <option value="Industrial Arts">
+                  Industrial Arts
+                  </option>
+                  <option value="Interior">
+                 Interior
+                  </option>
+                  <option value="Local Venue">
+                 Local Venue
+                  </option>
+                  <option value="Music">
+                 Music
+                  </option>
+                  <option value="Performance Arts">
+                 Performance Arts
+                  </option>
+                  <option value="Photo">
+                 Photo
+                  </option>
+                  <option value="Textile">
+                 Textile
+                  </option>
+                  <option value="Video">
+                  Video
+                  </option>
+                  <option value="Visual Artist">
+                  Visual Artist
+                  </option>
+                  <option value="Other">
+                  Other
+                  </option>
+                </FieldSelect>
+
                 <p/>
                 <FieldTextInput
                   type="textarea"
