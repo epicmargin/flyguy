@@ -185,9 +185,6 @@
         cursor: pointer;
 }
 
-
-
-
 .bio {
   /* Preserve newlines, but collapse other whitespace */
   white-space: pre-line;

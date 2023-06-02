@@ -196,12 +196,11 @@ export class ProfilePageComponent extends Component {
 
         </div>
         <div className={css.linkArea}>
-        <p/>
         {hasInstagram ? <a className={css.linkBox} href={instagram} target="_blank">Instagram</a> : null} 
         {hasLinkedin ? <a className={css.linkBox} href={linkedin} target="_blank">LinkedIn</a> : null}
         {hasDribbble ? <a className={css.linkBox} href={dribbble} target="_blank">Dribbble</a> : null}
         {hasWebsite? <a className={css.linkBox} href={website} target="_blank">Web</a> : null}
-        <p/>
+        
         </div>
 
 

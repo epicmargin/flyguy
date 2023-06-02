@@ -2,9 +2,11 @@
 }
 
 .select {
-  color: var(--marketplaceColor);
+  color: #000000;
   border-bottom-color: var(--attentionColor);
   padding-right: 20px;
+  background-color: #ffffff;
+  padding: 5px;
 
   & > option {
     color: var(--matterColorAnti);
@@ -15,8 +17,10 @@
 }
 
 .selectSuccess {
-  color: var(--matterColor);
+  color: #000000;
   border-bottom-color: var(--successColor);
+  background-color: #ffffff;
+  padding: 5px;
 }
 
 .selectError {

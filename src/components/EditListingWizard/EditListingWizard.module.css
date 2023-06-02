@@ -86,7 +86,7 @@
   @media (--viewportLarge) {
     padding: 88px 36px 82px 59px;
     border-left: 1px solid var(--matterColorNegative);
-    background-color: var(--matterColorLight);
+    background-color: var(--matterColorBright);
   }
 
   @media (--viewportLargeWithPaddings) {
