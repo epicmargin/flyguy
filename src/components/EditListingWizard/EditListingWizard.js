@@ -208,8 +208,10 @@ class EditListingWizard extends Component {
   }
 
   handlePublishListing(id) {
-    const { onPublishListingDraft, currentUser, stripeAccount } = this.props;
 
+    this.props.onPublishListingDraft(id);
+   /*const { onPublishListingDraft, currentUser, stripeAccount } = this.props;
+ 
     const stripeConnected =
       currentUser && currentUser.stripeAccount && !!currentUser.stripeAccount.id;
 
@@ -228,6 +230,7 @@ class EditListingWizard extends Component {
         showPayoutDetails: true,
       });
     }
+   */
   }
 
   handlePayoutModalClose() {

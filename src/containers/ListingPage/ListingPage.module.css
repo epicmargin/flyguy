@@ -59,7 +59,7 @@
   top: 13px;
   left: 13px;
   width: calc(100% - 26px);
-  color: var(--matterColorNegative);
+  color: var(--matterColorAnti);
   background-color: var(--matterColor);
   z-index: 1; /* bring on top of mobile image */
 
@@ -99,7 +99,7 @@
   flex-shrink: 0;
   margin: 0;
   padding: 14px 24px 11px 12px;
-  color: var(--matterColorNegative);
+  color: var(--matterColorAnti);
 
   transition: var(--transitionStyleButton);
 
@@ -223,9 +223,11 @@
   @media (--viewportLarge) {
     margin-top: 50px;
     margin-bottom: 0px;
-    /* contentContainer's full width - (bookingColumn + two paddings + margin + border) */
+    /* contentContainer's full width - (bookingColumn + two paddings + margin + border) 
     max-width: calc(100% - 433px);
-    flex-basis: calc(100% - 433px);
+    flex-basis: calc(100% - 433px);*/
+    max-width:100%;
+    flex-basis:100%;
     flex-shrink: 0;
     flex-grow: 1;
   }
@@ -269,6 +271,8 @@
 
 .avatarMobile {
   display: flex;
+  border-radius: 50%;
+  border: 3px solid #fff;
 
   @media (--viewportMedium) {
     display: none; /* Hide the medium avatar from the bigger screens */
@@ -277,9 +281,12 @@
 
 .avatarDesktop {
   display: none; /* Hide the large avatar from the smaller screens */
+  
 
   @media (--viewportMedium) {
     display: flex;
+    border-radius: 50%;
+  border: 3px solid #fff;
   }
 }
 
@@ -426,7 +433,8 @@
 .descriptionTitle {
   /* Font */
   composes: h3 from global;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
+  font-size: 22px;
 
   margin-top: 0;
   margin-bottom: 13px;
@@ -509,7 +517,8 @@
 
 .reviewsHeading {
   composes: h3 from global;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
+  font-size: 22px;
 
   margin: 52px 0 20px 0;
 

@@ -24,7 +24,6 @@ import {
 } from '../../components';
 import { TopbarContainer, NotFoundPage } from '../../containers';
 import config from '../../config';
-
 import css from './ProfilePage.module.css';
 
 const MAX_MOBILE_SCREEN_WIDTH = 768;
@@ -183,12 +182,12 @@ export class ProfilePageComponent extends Component {
 
     const mainContent = (
       <div>        
-        <div className={css.profileBox}>
-        <div className={css.identityBox}>
-        <p className={css.artistName}><FormattedMessage id="ProfilePage.mobileHeading" values={{ name: displayName }} /></p>
-        <p  className={css.location}>{hometowncity}, {hometownstate}</p>
-        <hr/>
-        <span>{profiletitle}</span>
+          <div className={css.profileBox}>
+          <div className={css.identityBox}>
+          <p className={css.artistName}><FormattedMessage id="ProfilePage.mobileHeading" values={{ name: displayName }} /></p>
+          <p  className={css.location}>{hometowncity}, {hometownstate}</p>
+          <hr/>
+          <span>{profiletitle}</span>
         <hr/>
         </div>
        
@@ -202,7 +201,6 @@ export class ProfilePageComponent extends Component {
         {hasWebsite? <a className={css.linkBox} href={website} target="_blank">Web</a> : null}
         
         </div>
-
 
         {hasListings ? (
           <div className={listingsContainerClasses}>

@@ -136,7 +136,7 @@
   composes: h5 from global;
 
   flex-shrink: 0;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   margin-top: 24px;
   margin-bottom: 60px;
 

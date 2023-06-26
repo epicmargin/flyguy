@@ -9,7 +9,7 @@ import { pathByRouteName } from '../../util/routes';
 import { Modal } from '../../components';
 
 import EmailReminder from './EmailReminder';
-import StripeAccountReminder from './StripeAccountReminder';
+//import StripeAccountReminder from './StripeAccountReminder';
 import css from './ModalMissingInformation.module.css';
 
 const MISSING_INFORMATION_MODAL_WHITELIST = [
@@ -119,9 +119,10 @@ class ModalMissingInformation extends Component {
             sendVerificationEmailError={sendVerificationEmailError}
           />
         );
-      } else if (this.state.showMissingInformationReminder === STRIPE_ACCOUNT) {
-        content = <StripeAccountReminder className={classes} />;
-      }
+      } 
+      //else if (this.state.showMissingInformationReminder === STRIPE_ACCOUNT) {
+      //  content = <StripeAccountReminder className={classes} />;
+      //}
     }
 
     const closeButtonMessage = (
