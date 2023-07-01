@@ -17,7 +17,6 @@
 .aside {
   box-shadow: none;
 }
-
 .asideContent {
   width: 50%;
   display: block;
@@ -201,9 +200,10 @@
 
 .listingsContainer {
   composes: clearfix from global;
-  border-top: 1px solid var(--matterColorNegative);
-  border-bottom: 1px solid var(--matterColorNegative);
+  border-top: 2px solid var(--matterColorNegative);
+  border-bottom: 2px solid var(--matterColorNegative);
   padding-bottom: 23px;
+  margin-top: 40px;
 
   @media (--viewportMedium) {
     padding-bottom: 22px;
@@ -212,8 +212,9 @@
 
 .listingsTitle {
   composes: h3 from global;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   margin-bottom: 0;
+  font-size: 22px;
 
   @media (--viewportMedium) {
     margin-top: 48px;

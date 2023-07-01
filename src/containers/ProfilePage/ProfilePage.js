@@ -200,6 +200,7 @@ export class ProfilePageComponent extends Component {
         {hasDribbble ? <a className={css.linkBox} href={dribbble} target="_blank">Dribbble</a> : null}
         {hasWebsite? <a className={css.linkBox} href={website} target="_blank">Web</a> : null}
         
+
         </div>
 
         {hasListings ? (

@@ -106,6 +106,7 @@ const LayoutWrapperAccountSettingsSideNavComponent = props => {
         name: 'StripePayoutPage',
       },
     },
+    */
     {
       text: <FormattedMessage id="LayoutWrapperAccountSettingsSideNav.paymentMethodsTabTitle" />,
       selected: currentTab === 'PaymentMethodsPage',
@@ -114,7 +115,7 @@ const LayoutWrapperAccountSettingsSideNavComponent = props => {
         name: 'PaymentMethodsPage',
       },
     },
-    */
+    
     
   ];
 
