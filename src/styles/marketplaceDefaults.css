@@ -913,9 +913,11 @@ textarea {
 .marketplaceModalBottomWrapperText {
   margin-top: -24px;
   padding-bottom: 8px;
+  
 
   @media (--viewportMedium) {
     padding-bottom: 0;
+    
   }
 }
 

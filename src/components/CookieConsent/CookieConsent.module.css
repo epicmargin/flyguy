@@ -17,7 +17,7 @@
 
   /* Colors */
   background-color: var(--matterColor);
-  color: var(--matterColorNegative);
+  color: var(--matterColorDark);
 
   /* Cover Topbar on desktop */
   @media (--viewportMedium) {

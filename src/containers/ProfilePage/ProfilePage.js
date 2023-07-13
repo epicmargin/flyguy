@@ -190,7 +190,7 @@ export class ProfilePageComponent extends Component {
           <span>{profiletitle}</span>
         <hr/>
         </div>
-       
+
         {hasBio ? <p className={css.bio}>{bio}</p> : null}
 
         </div>
